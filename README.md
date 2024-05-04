@@ -2,11 +2,11 @@
 
 
 
-## Metodos str 
+## Métodos de las cadenas de caracteres (String Methods)
 <details>
 <summary>capitalize</summary>
 
-## capitalize()
+### str.capitalize()
 
 capitalize
 Ejemplo: cadena = "hola mundo", cadena.capitalize() devuelve "Hola mundo".
@@ -26,7 +26,7 @@ Devuelve una copia de la cadena con la primera letra en mayúscula y el resto en
 <details>
 <summary>casefold</summary>
 
-## casefold
+### str.casefold
 
 ```python
 Row(
@@ -42,7 +42,7 @@ Row(
 <details>
 <summary>center</summary>
 
-## center
+### str.center
 
 ```python
 Column(
@@ -53,4 +53,23 @@ Column(
 )
 
 ```
+</details>
 
+## Métodos de listas (List methods)
+
+<details>
+<summary>append</summary>
+
+### list.append(x)
+
+```python
+my_list = [1, 2, 3]
+my_list.append(4)
+print(my_list)
+# Output:
+[1, 2, 3, 4]
+
+```
+Explicación:
+Añade un elemento al final de la lista.
+</details>
